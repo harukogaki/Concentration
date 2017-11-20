@@ -20,12 +20,11 @@ struct Card{
 
 class Concentration{
     lazy var cards = [Card]()
-    var numberOfPairs: Int
-    var pairsMatched = 0 {
+    private var numberOfPairs: Int
+    private var pairsMatched = 0 {
         didSet {
             if (pairsMatched == numberOfPairs){
                 gameIsDone = true
-                print("Game Over!")
             }
         }
     }
@@ -35,7 +34,7 @@ class Concentration{
         return gameIsDone;
     }
     
-    var indexOfTheOneAndOnlyFaceUpCard: Int? {
+    private var indexOfTheOneAndOnlyFaceUpCard: Int? {
         get {
             var foundIndex:Int?;
             for i in cards.indices{
@@ -53,6 +52,16 @@ class Concentration{
             for index in cards.indices{
                 cards[index].isFaceUp = (index == newValue)
             }
+        }
+    }
+    
+    func resetGame() {
+        gameIsDone = false;
+        pairsMatched = 0;
+        
+        for index in 0..<cards.count{
+            cards[index].isFaceUp = false;
+            cards[index].isMatched = false;
         }
     }
     
