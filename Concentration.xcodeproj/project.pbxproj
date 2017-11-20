@@ -14,6 +14,7 @@
 		C3A20A151FC3297B00C354C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A20A131FC3297B00C354C6 /* LaunchScreen.storyboard */; };
 		C3A20A201FC3297B00C354C6 /* ConcentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A20A1F1FC3297B00C354C6 /* ConcentrationTests.swift */; };
 		C3A20A2B1FC3297B00C354C6 /* ConcentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A20A2A1FC3297B00C354C6 /* ConcentrationUITests.swift */; };
+		C3A20A391FC346E500C354C6 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A20A381FC346E500C354C6 /* Concentration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C3A20A261FC3297B00C354C6 /* ConcentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A20A2A1FC3297B00C354C6 /* ConcentrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITests.swift; sourceTree = "<group>"; };
 		C3A20A2C1FC3297B00C354C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A20A381FC346E500C354C6 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C3A20A111FC3297B00C354C6 /* Assets.xcassets */,
 				C3A20A131FC3297B00C354C6 /* LaunchScreen.storyboard */,
 				C3A20A161FC3297B00C354C6 /* Info.plist */,
+				C3A20A381FC346E500C354C6 /* Concentration.swift */,
 			);
 			path = Concentration;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				C3A20A0D1FC3297B00C354C6 /* ViewController.swift in Sources */,
 				C3A20A0B1FC3297B00C354C6 /* AppDelegate.swift in Sources */,
+				C3A20A391FC346E500C354C6 /* Concentration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
